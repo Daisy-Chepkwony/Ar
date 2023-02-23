@@ -25,11 +25,11 @@ require_relative 'article'
 
 #Associations and Aggregate Methods
 
-# author1 = Author.new("Jane Austen")
-# magazine1 = Magazine.new("Vogue", "Fashion")
-# magazine2 = Magazine.new("The New Yorker", "Culture")
+# author1 = Author.new("daisy")
+# magazine1 = Magazine.new("Nairobi", "eldoret")
+# magazine2 = Magazine.new("trending", "Culture")
 
-# article1 = author1.add_article(magazine1, "The Latest Fashion Trends")
+# article1 = author1.add_article(magazine1, "The Latest design")
 # article2 = author1.add_article(magazine2, "The Latest Cultural Trends")
 
 # puts author1.articles
