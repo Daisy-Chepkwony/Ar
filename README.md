@@ -13,11 +13,15 @@ Author - Magazine is a many to many relationship.
 ## Getting Started
 
 To setup an environment:
-Open the terminal
-git clone ["git@github.com:Daisy-Chepkwony/RubyArticle-code-challenge.git"]
-Navigate to the project directory
-Run bundle init,bundle install the necessary gem files.
-Then run bin/author.rb
+.Open the terminal
+
+.git clone ["git@github.com:Daisy-Chepkwony/RubyArticle-code-challenge.git"]
+
+.Navigate to the project directory
+
+.Run bundle init,bundle install the necessary gem files.
+
+.Then run bin/author.rb
 
 
 
@@ -32,6 +36,7 @@ Then run bin/author.rb
         A name cannot be changed after it is initialized.
     Author#name
         Returns the name of the author
+
 instance --->Magazine
     Magazine#initialize(name, category)
         A magazine is initialized with a name as a string and a category as a string
@@ -42,6 +47,7 @@ instance --->Magazine
         Returns the category of this magazine
     Magazine.all
         Returns an array of all Magazine instances
+
 instance --->Article
     Article#initialize(author, magazine, title)
         An article is initialized with an author as an Author object, a magazine as a Magazine object, and title as a string.
